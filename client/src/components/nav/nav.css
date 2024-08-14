@@ -1,0 +1,33 @@
+nav{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_right, .nav_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem
+}
+.nav_left p{
+    color: rgb(157, 5, 5);
+    font-weight: 600;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:1rem
+}
+.user_avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.write{
+    display: flex;
+    align-items: center;
+    gap:0.3rem
+}

@@ -1,0 +1,12 @@
+.blogPost{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.blogPost img{
+    /* height: 3rem;
+    width: 3rem; */
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+}
